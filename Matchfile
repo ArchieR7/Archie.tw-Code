@@ -1,0 +1,9 @@
+git_url "這邊放置你剛剛所建立的 git repo url"
+
+type "development" # The default type, can be: appstore, adhoc, enterprise or development
+
+app_identifier ["這邊放置你在 App IDs 裡頭新建好的 Bundle Ifentifier"]
+username "這邊放置你所要來處理 Certificate 相關的帳號名稱"
+
+# For all available options run `fastlane match --help`
+# Remove the # in the beginning of the line to enable the other options
