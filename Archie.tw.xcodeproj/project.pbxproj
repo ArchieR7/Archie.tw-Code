@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		215ADBE11F21D8510005CF73 /* CocoaAsyncSocketDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215ADBE01F21D8510005CF73 /* CocoaAsyncSocketDemo.swift */; };
 		21C6ACE61F21B0330028E6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6ACE51F21B0330028E6DB /* AppDelegate.swift */; };
 		21C6ACE81F21B0330028E6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6ACE71F21B0330028E6DB /* ViewController.swift */; };
 		21C6ACEB1F21B0330028E6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C6ACE91F21B0330028E6DB /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		215ADBE01F21D8510005CF73 /* CocoaAsyncSocketDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocoaAsyncSocketDemo.swift; path = Socket/CocoaAsyncSocketDemo.swift; sourceTree = "<group>"; };
 		21C6ACE21F21B0330028E6DB /* Archie.tw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archie.tw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C6ACE51F21B0330028E6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C6ACE71F21B0330028E6DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				21C6AD091F21C2D50028E6DB /* RxCocoaAsyncSocket.swift */,
+				215ADBE01F21D8510005CF73 /* CocoaAsyncSocketDemo.swift */,
 			);
 			name = Socket;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				21C6AD0A1F21C2D50028E6DB /* RxCocoaAsyncSocket.swift in Sources */,
 				21C6ACE81F21B0330028E6DB /* ViewController.swift in Sources */,
+				215ADBE11F21D8510005CF73 /* CocoaAsyncSocketDemo.swift in Sources */,
 				21C6ACE61F21B0330028E6DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +460,7 @@
 				21C6AD011F21B0340028E6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C6AD021F21B0340028E6DB /* Build configuration list for PBXNativeTarget "Archie.twTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				21C6AD041F21B0340028E6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
