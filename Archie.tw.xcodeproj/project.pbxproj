@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210598131F3A8B9A00EA9C1E /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210598121F3A8B9A00EA9C1E /* SetUpViewController.swift */; };
+		210598151F3A8BAB00EA9C1E /* DidSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210598141F3A8BAB00EA9C1E /* DidSetViewController.swift */; };
 		215ADBE11F21D8510005CF73 /* CocoaAsyncSocketDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215ADBE01F21D8510005CF73 /* CocoaAsyncSocketDemo.swift */; };
 		21C6ACE61F21B0330028E6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6ACE51F21B0330028E6DB /* AppDelegate.swift */; };
 		21C6ACE81F21B0330028E6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6ACE71F21B0330028E6DB /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210598121F3A8B9A00EA9C1E /* SetUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetUpViewController.swift; path = "User Interface/SetUpViewController.swift"; sourceTree = "<group>"; };
+		210598141F3A8BAB00EA9C1E /* DidSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DidSetViewController.swift; path = "User Interface/DidSetViewController.swift"; sourceTree = "<group>"; };
 		215ADBE01F21D8510005CF73 /* CocoaAsyncSocketDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocoaAsyncSocketDemo.swift; path = Socket/CocoaAsyncSocketDemo.swift; sourceTree = "<group>"; };
 		21C6ACE21F21B0330028E6DB /* Archie.tw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archie.tw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C6ACE51F21B0330028E6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		210598111F3A8B6600EA9C1E /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				210598121F3A8B9A00EA9C1E /* SetUpViewController.swift */,
+				210598141F3A8BAB00EA9C1E /* DidSetViewController.swift */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
 		21C6ACD91F21B0330028E6DB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,7 @@
 		21C6ACE41F21B0330028E6DB /* Archie.tw */ = {
 			isa = PBXGroup;
 			children = (
+				210598111F3A8B6600EA9C1E /* User Interface */,
 				21C6AD0B1F21C2D80028E6DB /* Socket */,
 				21C6ACE51F21B0330028E6DB /* AppDelegate.swift */,
 				21C6ACE71F21B0330028E6DB /* ViewController.swift */,
@@ -239,6 +253,8 @@
 				21C6ACE81F21B0330028E6DB /* ViewController.swift in Sources */,
 				215ADBE11F21D8510005CF73 /* CocoaAsyncSocketDemo.swift in Sources */,
 				21C6ACE61F21B0330028E6DB /* AppDelegate.swift in Sources */,
+				210598131F3A8B9A00EA9C1E /* SetUpViewController.swift in Sources */,
+				210598151F3A8BAB00EA9C1E /* DidSetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
