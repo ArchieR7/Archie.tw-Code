@@ -1,9 +1,0 @@
-Host github.com-Apple
-HostName github.com
-User git
-IdentityFile ~/.ssh/Archie_Apple
- 
-Host github.com
-HostName github.com
-User git
-IdentityFile ~/.ssh/github
